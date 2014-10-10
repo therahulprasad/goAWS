@@ -27,13 +27,15 @@ StatusCode, SuccessXmlResponse, ErrorXmlResponse, err := SendSingleMail(to,
                                                                         fromName, 
                                                                         replyTo, 
                                                                         replyToName);
-
+</pre>
+<pre>
 // If you dont worry about error code 
 _, _, _, err := SendSingleMail(to, subject, body, from, toName, fromName, replyTo, replyToName);
 if err != nil {
  // Email reached SES
 }
-
+</pre>
+<pre>
 // If you care about error
 _, _, ErrorXmlResponse, err := SendSingleMail(to, subject, body, from, toName, fromName, replyTo, replyToName);
 if err != nil && ErrorXmlResponse.Code == "" {
@@ -42,7 +44,6 @@ if err != nil && ErrorXmlResponse.Code == "" {
  // Email reached SES by There was an error on ses
  fmt.Println(ErrorXmlResponse.Message)
 }
-
 </pre>
 
 <h4>Note:</h4>
