@@ -2,5 +2,7 @@
 
 package awsAuth
 
-var AccessKey string = "XXXXXXXXXXXXXXXXXXXX"
-var SecretKey string = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+// UN-COMMENT lines below
+
+//var AccessKey string = "XXXXXXXXXXXXXXXXXXXX"
+//var SecretKey string = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

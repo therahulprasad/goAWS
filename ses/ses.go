@@ -3,7 +3,7 @@ package ses
 import (
 	"bytes"
 	"encoding/xml"
-	"github.com/therahulprasad/aws/awsAuth"
+	"github.com/therahulprasad/goAws/awsAuth"
 	"io/ioutil"
 	"net/http"
 	"net/url"
