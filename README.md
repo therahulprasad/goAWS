@@ -1,4 +1,4 @@
-<h1>goSES</h1>
+<h1>goAWS</h1>
 
 Golang library for Amazon Web Services - Simple Email Service (AWS - SES)
 
