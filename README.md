@@ -4,7 +4,7 @@ Golang library for Amazon Web Services - Simple Email Service (AWS - SES)
 
 <h3>Installation</h3>
 <pre>
-go get github.com/therahulprasad/goses
+go get github.com/therahulprasad/goAwsSES
 </pre>
 
 <h3>Usage</h3>
